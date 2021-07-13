@@ -52,7 +52,7 @@
 		<ul id='nav-mobile' class='right hide-on-med-and-down nav-right'>
 			<li>
                 <a href='#!'>
-                    <span class='label suite-start-time blue darken-3'>Mar 23, 2021 12:10:04 PM</span>
+                    <span class='label suite-start-time blue darken-3'>Jul 13, 2021 05:25:10 PM</span>
 				</a>
 			</li>
 			<li>
@@ -158,7 +158,7 @@
 					<canvas id='grandchild-analysis' width='100' height='80'></canvas>
 				</div>
 				<div class='block text-small'>
-					<span class='tooltipped' data-position='top' data-tooltip='100%'><span class='strong'>8</span> step(s) passed</span>
+					<span class='tooltipped' data-position='top' data-tooltip='100%'><span class='strong'>4</span> step(s) passed</span>
 				</div>
 				<div class='block text-small'>
 					<span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> step(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
@@ -178,64 +178,50 @@
 				<li class='test displayed active has-leaf pass' status='pass' bdd='true' test-id='1'>
 					<div class='test-heading'>
 						<span class='test-name'>Register Functionality</span>
-						<span class='test-time'>Mar 23, 2021 12:10:05 PM</span>
+						<span class='test-time'>Jul 13, 2021 05:25:10 PM</span>
 						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
-<div class='scenariooutline node' test-id='2' status='pass'>
-	<span class='duration right label'>0h 0m 50s+337ms</span>
+<div class='scenario node' test-id='2' status='pass'>
+	<span class='duration right label'>0h 0m 46s+206ms</span>
 	<div class='desc'>
-		<b>ScenarioOutline</b>
-		<span class="desc-text">Verify user should not register without Date of Birth</span>
+		<b>Scenario</b>
+		<span class="desc-text">Verify user should able to book short break holiday</span>
 	</div>
 	<ul class='steps'>
-		<li test-id='3' class='node scenario pass' status='pass'>
+		<li test-id='3' class='node given pass' status='pass'>
 			
-			<b>Scenario</b>
+			<b>Given</b>
 			
-			<span class="bdd-step-name">Verify user should not register without Date of Birth</span>
+			<span class="bdd-step-name">Given I am on buyagift homepage</span>
+				<div class='pre'>passed</div>
 			
-				<ul class='steps'>
-					<li test-id='4' class='node given pass' status='pass'><b>Given</b>
-						<span class="bdd-step-name">Given I am on money gaming homepage</span>
-							<div class='pre'>passed</div>
-					</li>
-					<li test-id='5' class='node and pass' status='pass'><b>And</b>
-						<span class="bdd-step-name">And I click on join now button</span>
-							<div class='pre'>Clicking On Join now Button [[ChromeDriver: chrome on WINDOWS (ac71a51d9105e30ca09637419e18e6b7)] -> xpath: //a[contains(text(),'Join Now!')]]</div>
-							<div class='pre'>passed</div>
-					</li>
-					<li test-id='6' class='node and pass' status='pass'><b>And</b>
-						<span class="bdd-step-name">And I select title</span>
-							<div class='pre'>Selecting Title [[ChromeDriver: chrome on WINDOWS (ac71a51d9105e30ca09637419e18e6b7)] -> xpath: //option[contains(text(),'Ms')]]</div>
-							<div class='pre'>passed</div>
-					</li>
-					<li test-id='7' class='node when pass' status='pass'><b>When</b>
-						<span class="bdd-step-name">When I enter my first name "Tameena"</span>
-							<div class='pre'>Enter First Name TameenaFirst Name Field [[ChromeDriver: chrome on WINDOWS (ac71a51d9105e30ca09637419e18e6b7)] -> xpath: //input[@id='forename']]<br></div>
-							<div class='pre'>passed</div>
-					</li>
-					<li test-id='8' class='node and pass' status='pass'><b>And</b>
-						<span class="bdd-step-name">And I enter sur name "Martin"</span>
-							<div class='pre'>Enter Sur Name MartinSur Name Field [[ChromeDriver: chrome on WINDOWS (ac71a51d9105e30ca09637419e18e6b7)] -> xpath: //body/div[2]/div[3]/form[1]/fieldset[1]/input[2]]</div>
-							<div class='pre'>passed</div>
-					</li>
-					<li test-id='9' class='node and pass' status='pass'><b>And</b>
-						<span class="bdd-step-name">And I click on check box of terms and condition</span>
-							<div class='pre'>Clicking on check box button for T&C [[ChromeDriver: chrome on WINDOWS (ac71a51d9105e30ca09637419e18e6b7)] -> xpath: //body/div[2]/div[3]/form[1]/fieldset[5]/input[3]]</div>
-							<div class='pre'>passed</div>
-					</li>
-					<li test-id='10' class='node and pass' status='pass'><b>And</b>
-						<span class="bdd-step-name">And I click on join now form button</span>
-							<div class='pre'>Clicking On Join now form Button [[ChromeDriver: chrome on WINDOWS (ac71a51d9105e30ca09637419e18e6b7)] -> xpath: //input[@id='form']]</div>
-							<div class='pre'>passed</div>
-					</li>
-					<li test-id='11' class='node then pass' status='pass'><b>Then</b>
-						<span class="bdd-step-name">Then I should not register successfully and see "This field is required"</span>
-							<div class='pre'>Getting Error Message [[ChromeDriver: chrome on WINDOWS (ac71a51d9105e30ca09637419e18e6b7)] -> xpath: //body/div[2]/div[3]/form[1]/fieldset[1]/label[5]]</div>
-							<div class='pre'>passed</div>
-					</li>
-				</ul>
+		</li>
+		<li test-id='4' class='node and pass' status='pass'>
+			
+			<b>And</b>
+			
+			<span class="bdd-step-name">And I click on short break button</span>
+				<div class='pre'>Clicking On Short Break Button [[FirefoxDriver: firefox on WINDOWS (e44d6b7c-46e3-47ee-a7e2-10cec1175724)] -> link text: Short Breaks]</div>
+				<div class='pre'>passed</div>
+			
+		</li>
+		<li test-id='5' class='node and pass' status='pass'>
+			
+			<b>And</b>
+			
+			<span class="bdd-step-name">And I click on one night break button</span>
+				<div class='pre'>Clicking on One Night Break[[FirefoxDriver: firefox on WINDOWS (e44d6b7c-46e3-47ee-a7e2-10cec1175724)] -> xpath: //div[contains(text(),'One Night Breaks')]]</div>
+				<div class='pre'>passed</div>
+			
+		</li>
+		<li test-id='6' class='node then pass' status='pass'>
+			
+			<b>Then</b>
+			
+			<span class="bdd-step-name">Then I should be able to see one night break holiday list on page</span>
+				<div class='pre'>passed</div>
+			
 		</li>
 	</ul>
 </div>
@@ -316,8 +302,8 @@
                                         </thead>
                                         <tbody>
                                             <tr>
-                                                <td>Mar 23, 2021 12:10:05 PM</td>
-                                                <td class='linked' test-id='3'>Register Functionality.Verify user should not register without Date of Birth.Verify user should not register without Date of Birth</td>
+                                                <td>Jul 13, 2021 05:25:10 PM</td>
+                                                <td class='linked' test-id='2'>Register Functionality.Verify user should able to book short break holiday</td>
                                                 <td><span class='test-status pass'>pass</span></td>
                                             </tr>
                                         </tbody>
@@ -350,8 +336,8 @@
                                         </thead>
                                         <tbody>
                                             <tr>
-                                                <td>Mar 23, 2021 12:10:05 PM</td>
-                                                <td class='linked' test-id='3'>Register Functionality.Verify user should not register without Date of Birth.Verify user should not register without Date of Birth</td>
+                                                <td>Jul 13, 2021 05:25:10 PM</td>
+                                                <td class='linked' test-id='2'>Register Functionality.Verify user should able to book short break holiday</td>
                                                 <td><span class='test-status pass'>pass</span></td>
                                             </tr>
                                         </tbody>
@@ -391,25 +377,25 @@
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Steps
-					<div class='panel-lead'>8</div>
+					<div class='panel-lead'>4</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Start
-					<div class='panel-lead'>Mar 23, 2021 12:10:04 PM</div>
+					<div class='panel-lead'>Jul 13, 2021 05:25:10 PM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 			 		End
-			 		<div class='panel-lead'>Mar 23, 2021 12:10:55 PM</div>
+			 		<div class='panel-lead'>Jul 13, 2021 05:25:56 PM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Time Taken
-					<div class='panel-lead'>50,701ms</div>
+					<div class='panel-lead'>46,427ms</div>
 				</div>
 			</div>
 			<div class='col s4'>
@@ -475,7 +461,7 @@
 				infoChild: 0,
 				exceptionsChild: 0,
 				
-				passGrandChild: 8,
+				passGrandChild: 4,
 				failGrandChild: 0,
 				fatalGrandChild: 0,
 				errorGrandChild: 0,

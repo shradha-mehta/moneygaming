@@ -1,0 +1,32 @@
+2021-03-23 11:03:10 INFO  BrowserSelector :18 - Launching chrome browser
+2021-03-23 11:03:335 INFO  RegistrationPage :37 - Clicking On Join now Button [[ChromeDriver: chrome on WINDOWS (9f2e636b113381b96f69e18a356f835f)] -> xpath: //a[contains(text(),'Join Now!')]]
+2021-03-23 11:03:456 INFO  RegistrationPage :43 - Selecting Title [[ChromeDriver: chrome on WINDOWS (9f2e636b113381b96f69e18a356f835f)] -> xpath: //option[contains(text(),'Ms')]]
+2021-03-23 11:03:682 INFO  RegistrationPage :50 - Enter First Name TonyFirst Name Field [[ChromeDriver: chrome on WINDOWS (9f2e636b113381b96f69e18a356f835f)] -> xpath: //input[@id='forename']]
+2021-03-23 11:03:896 INFO  RegistrationPage :55 - Enter Sur Name MartinSur Name Field [[ChromeDriver: chrome on WINDOWS (9f2e636b113381b96f69e18a356f835f)] -> xpath: //body/div[2]/div[3]/form[1]/fieldset[1]/input[2]]
+2021-03-23 11:03:49 INFO  RegistrationPage :60 - Clicking on check box button for T&C
+2021-03-23 11:03:231 INFO  RegistrationPage :65 - Clicking On Join now form Button[[ChromeDriver: chrome on WINDOWS (9f2e636b113381b96f69e18a356f835f)] -> xpath: //input[@id='form']]
+2021-03-23 11:03:291 INFO  RegistrationPage :69 - Getting Error Message [[ChromeDriver: chrome on WINDOWS (9f2e636b113381b96f69e18a356f835f)] -> xpath: //body/div[2]/div[3]/form[1]/fieldset[1]/label[5]]
+
+2021-03-23 12:03:497 INFO  BrowserSelector :22 - Launching firefox browser
+2021-03-23 12:03:870 INFO  BrowserSelector :18 - Launching chrome browser
+2021-03-23 12:03:423 INFO  BrowserSelector :18 - Launching chrome browser
+2021-03-23 12:03:332 INFO  RegistrationPage :37 - Clicking On Join now Button [[ChromeDriver: chrome on WINDOWS (ac71a51d9105e30ca09637419e18e6b7)] -> xpath: //a[contains(text(),'Join Now!')]]
+2021-03-23 12:03:476 INFO  RegistrationPage :43 - Selecting Title [[ChromeDriver: chrome on WINDOWS (ac71a51d9105e30ca09637419e18e6b7)] -> xpath: //option[contains(text(),'Ms')]]
+2021-03-23 12:03:755 INFO  RegistrationPage :50 - Enter First Name TameenaFirst Name Field [[ChromeDriver: chrome on WINDOWS (ac71a51d9105e30ca09637419e18e6b7)] -> xpath: //input[@id='forename']]
+2021-03-23 12:03:985 INFO  RegistrationPage :55 - Enter Sur Name MartinSur Name Field [[ChromeDriver: chrome on WINDOWS (ac71a51d9105e30ca09637419e18e6b7)] -> xpath: //body/div[2]/div[3]/form[1]/fieldset[1]/input[2]]
+2021-03-23 12:03:168 INFO  RegistrationPage :60 - Clicking on check box button for T&C
+2021-03-23 12:03:348 INFO  RegistrationPage :65 - Clicking On Join now form Button[[ChromeDriver: chrome on WINDOWS (ac71a51d9105e30ca09637419e18e6b7)] -> xpath: //input[@id='form']]
+2021-03-23 12:03:397 INFO  RegistrationPage :69 - Getting Error Message [[ChromeDriver: chrome on WINDOWS (ac71a51d9105e30ca09637419e18e6b7)] -> xpath: //body/div[2]/div[3]/form[1]/fieldset[1]/label[5]]
+2021-07-13 16:07:203 INFO  BrowserSelector :22 - Launching firefox browser
+2021-07-13 16:07:794 INFO  BrowserSelector :22 - Launching firefox browser
+2021-07-13 16:07:893 INFO  BrowserSelector :22 - Launching firefox browser
+2021-07-13 16:07:94 INFO  RegistrationPage :37 - Clicking On Short Break Button Proxy element for: DefaultElementLocator 'By.linkText: Short Breaks'
+2021-07-13 16:07:221 INFO  BrowserSelector :22 - Launching firefox browser
+2021-07-13 16:07:103 INFO  RegistrationPage :37 - Clicking On Short Break Button Proxy element for: DefaultElementLocator 'By.linkText: Short Breaks'
+2021-07-13 16:07:403 INFO  BrowserSelector :22 - Launching firefox browser
+2021-07-13 16:07:408 INFO  RegistrationPage :43 - Selecting Title Proxy element for: DefaultElementLocator 'By.xpath: //div[contains(text(),'One Night Breaks')]'
+2021-07-13 17:07:436 INFO  BrowserSelector :22 - Launching firefox browser
+2021-07-13 17:07:568 INFO  HolidayPage :30 - Clicking on One Night BreakProxy element for: DefaultElementLocator 'By.xpath: //div[contains(text(),'One Night Breaks')]'
+2021-07-13 17:07:694 INFO  BrowserSelector :22 - Launching firefox browser
+2021-07-13 17:07:231 INFO  BrowserSelector :22 - Launching firefox browser
+2021-07-13 17:07:409 INFO  HolidayPage :30 - Clicking on One Night BreakProxy element for: DefaultElementLocator 'By.xpath: //div[contains(text(),'One Night Breaks')]'

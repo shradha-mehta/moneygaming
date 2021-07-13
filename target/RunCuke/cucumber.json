@@ -6,7 +6,7 @@
         "before": [
           {
             "result": {
-              "duration": 27190527800,
+              "duration": 8492399000,
               "status": "passed"
             },
             "match": {
@@ -14,14 +14,14 @@
             }
           }
         ],
-        "line": 19,
-        "name": "Verify user should not register without Date of Birth",
+        "line": 7,
+        "name": "Verify user should able to book short break holiday",
         "description": "",
-        "id": "register-functionality;verify-user-should-not-register-without-date-of-birth;;2",
+        "id": "register-functionality;verify-user-should-able-to-book-short-break-holiday",
         "after": [
           {
             "result": {
-              "duration": 149700,
+              "duration": 69800,
               "status": "passed"
             },
             "match": {
@@ -30,138 +30,63 @@
           }
         ],
         "type": "scenario",
-        "keyword": "Scenario Outline",
+        "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 219408900,
+              "duration": 148069100,
               "status": "passed"
             },
             "line": 8,
-            "name": "I am on money gaming homepage",
+            "name": "I am on buyagift homepage",
             "match": {
-              "location": "RegistrationTest.iAmOnMoneyGamingHomepage()"
+              "location": "HolidayTest.iAmOnBuyagiftHomepage()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 21607933200,
+              "duration": 6070282400,
               "status": "passed"
             },
             "line": 9,
-            "name": "I click on join now button",
+            "name": "I click on short break button",
             "match": {
-              "location": "RegistrationTest.iClickOnJoinNowButton()"
+              "location": "HolidayTest.iClickOnShortBreakButton()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 139371600,
+              "duration": 31358863400,
               "status": "passed"
             },
             "line": 10,
-            "name": "I select title",
+            "name": "I click on one night break button",
             "match": {
-              "location": "RegistrationTest.iSelectTitle()"
+              "location": "HolidayTest.iClickOnOneNightBreakButton()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 270819700,
+              "duration": 16300,
               "status": "passed"
             },
             "line": 11,
-            "name": "I enter my first name \"Tameena\"",
+            "name": "I should be able to see one night break holiday list on page",
             "match": {
-              "arguments": [
-                {
-                  "val": "Tameena",
-                  "offset": 23
-                }
-              ],
-              "location": "RegistrationTest.iEnterMyFirstName(String)"
+              "location": "HolidayTest.iShouldBeAbleToSeeOneNightBreakHolidayListOnPage()"
             },
-            "matchedColumns": [
-              0
-            ],
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 226341400,
-              "status": "passed"
-            },
-            "line": 12,
-            "name": "I enter sur name \"Martin\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "Martin",
-                  "offset": 18
-                }
-              ],
-              "location": "RegistrationTest.iEnterSurName(String)"
-            },
-            "matchedColumns": [
-              1
-            ],
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 180900900,
-              "status": "passed"
-            },
-            "line": 13,
-            "name": "I click on check box of terms and condition",
-            "match": {
-              "location": "RegistrationTest.iClickOnCheckBoxOfTermsAndCondition()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 177530300,
-              "status": "passed"
-            },
-            "line": 14,
-            "name": "I click on join now form button",
-            "match": {
-              "location": "RegistrationTest.iClickOnJoinNowFormButton()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 82457900,
-              "status": "passed"
-            },
-            "line": 15,
-            "name": "I should not register successfully and see \"This field is required\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "This field is required",
-                  "offset": 44
-                }
-              ],
-              "location": "RegistrationTest.iShouldNotRegisterSuccessfullyAndSee(String)"
-            },
-            "matchedColumns": [
-              2
-            ],
             "keyword": "Then "
           }
         ]
       }
     ],
     "name": "Register Functionality",
-    "description": "\r\nAs a new moneygaming.com player\r\nI want to be able to register using my full details\r\nSo that I can play online casino games",
+    "description": "\r\nAs a new buyagift customer\r\nI want to be able to book my short break holiday",
     "id": "register-functionality",
     "keyword": "Feature",
-    "uri": "src/test/java/com/gameaccount/qa/moneygaming/resources/featurefile/registration.feature"
+    "uri": "src/test/java/com/buyagift/resources/featurefile/Holiday.feature"
   }
 ]

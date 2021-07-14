@@ -7,7 +7,7 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 8492399000,
+  "duration": 61949397200,
   "status": "passed"
 });
 formatter.scenario({
@@ -42,32 +42,32 @@ formatter.match({
   "location": "HolidayTest.iAmOnBuyagiftHomepage()"
 });
 formatter.result({
-  "duration": 148069100,
+  "duration": 191519900,
   "status": "passed"
 });
 formatter.match({
   "location": "HolidayTest.iClickOnShortBreakButton()"
 });
 formatter.result({
-  "duration": 6070282400,
+  "duration": 40238688500,
   "status": "passed"
 });
 formatter.match({
   "location": "HolidayTest.iClickOnOneNightBreakButton()"
 });
 formatter.result({
-  "duration": 31358863400,
+  "duration": 40066869300,
   "status": "passed"
 });
 formatter.match({
   "location": "HolidayTest.iShouldBeAbleToSeeOneNightBreakHolidayListOnPage()"
 });
 formatter.result({
-  "duration": 16300,
+  "duration": 28800,
   "status": "passed"
 });
 formatter.after({
-  "duration": 69800,
+  "duration": 177500,
   "status": "passed"
 });
 });

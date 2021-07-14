@@ -30,3 +30,5 @@
 2021-07-13 17:07:694 INFO  BrowserSelector :22 - Launching firefox browser
 2021-07-13 17:07:231 INFO  BrowserSelector :22 - Launching firefox browser
 2021-07-13 17:07:409 INFO  HolidayPage :30 - Clicking on One Night BreakProxy element for: DefaultElementLocator 'By.xpath: //div[contains(text(),'One Night Breaks')]'
+2021-07-14 14:07:657 INFO  BrowserSelector :22 - Launching firefox browser
+2021-07-14 14:07:412 INFO  HolidayPage :30 - Clicking on One Night BreakProxy element for: DefaultElementLocator 'By.xpath: //div[contains(text(),'One Night Breaks')]'
